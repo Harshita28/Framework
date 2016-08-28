@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28770" started-at="2016-08-28T12:32:53Z" finished-at="2016-08-28T12:33:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28770" started-at="2016-08-28T12:32:53Z" finished-at="2016-08-28T12:33:22Z">
+      <class name="delta.main.DeltaDriver">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:delta.main.DeltaDriver@735b5592]" name="initFrameWork" is-config="true" duration-ms="182" started-at="2016-08-28T18:02:53Z" finished-at="2016-08-28T18:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFrameWork -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDriver@735b5592]" name="launchApp" is-config="true" duration-ms="10352" started-at="2016-08-28T18:02:53Z" finished-at="2016-08-28T18:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="testSceanrios(java.lang.String)[pri:0, instance:delta.main.DeltaDriver@735b5592]" name="testSceanrios" duration-ms="2883" started-at="2016-08-28T18:03:03Z" data-provider="getScenarios" finished-at="2016-08-28T18:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSceanrios -->
+        <test-method status="PASS" signature="quitApp()[pri:0, instance:delta.main.DeltaDriver@735b5592]" name="quitApp" is-config="true" duration-ms="4723" started-at="2016-08-28T18:03:06Z" finished-at="2016-08-28T18:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDriver@735b5592]" name="launchApp" is-config="true" duration-ms="9084" started-at="2016-08-28T18:03:11Z" finished-at="2016-08-28T18:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="testSceanrios(java.lang.String)[pri:0, instance:delta.main.DeltaDriver@735b5592]" name="testSceanrios" duration-ms="1672" started-at="2016-08-28T18:03:20Z" data-provider="getScenarios" finished-at="2016-08-28T18:03:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSceanrios -->
+        <test-method status="PASS" signature="quitApp()[pri:0, instance:delta.main.DeltaDriver@735b5592]" name="quitApp" is-config="true" duration-ms="22" started-at="2016-08-28T18:03:22Z" finished-at="2016-08-28T18:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDriver@735b5592]" name="endFrameWork" is-config="true" duration-ms="895" started-at="2016-08-28T18:03:22Z" finished-at="2016-08-28T18:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endFrameWork -->
+      </class> <!-- delta.main.DeltaDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
